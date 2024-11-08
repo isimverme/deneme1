@@ -44,7 +44,7 @@ img{
 }
 .allbooks{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     margin-top: 15px;
     vertical-align: top;
     row-gap: 8px;
