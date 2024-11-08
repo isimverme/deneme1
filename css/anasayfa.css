@@ -1,0 +1,62 @@
+body{
+    background-image: url(images/background.jpg);
+    padding-top: 72px;
+    padding: 36px;
+}
+.header{
+    display: flex;
+    position: fixed;
+    background-color: red;
+    color: white;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 48px;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.header button{
+    background-color: rgb(222, 34, 34);
+    border: white solid;
+    color: white;
+    border: 2px solid;
+    border-radius: 8px;
+}
+.header button:hover{
+    cursor: pointer;
+}
+.book{
+    width: 300px;
+    background-color: wheat;
+    padding: 15px;
+    padding-bottom: 25px;
+    border-radius: 15px;
+
+}
+img{
+    width: 100%;
+
+}
+.bookname{
+    text-align: center;
+}
+.allbooks{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 15px;
+    vertical-align: top;
+    row-gap: 8px;
+    column-gap: 8px;
+}
+.allbooks div{
+    margin: auto;
+    vertical-align: top;
+}
+
+@media (max-width = 1000px){
+    .allbooks{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
